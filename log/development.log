@@ -1,0 +1,528 @@
+Started GET "/" for 127.0.0.1 at 2018-02-06 16:14:09 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/rotem.haber/.rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/rotem.haber/.rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (2.8ms)
+Completed 200 OK in 214ms (Views: 7.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-06 16:17:18 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/rotem.haber/.rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/rotem.haber/.rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 123ms (Views: 7.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-06 16:19:39 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/rotem.haber/.rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/rotem.haber/.rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (2.8ms)
+Completed 200 OK in 7ms (Views: 5.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-06 16:23:36 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/rotem.haber/.rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/rotem.haber/.rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 8ms (Views: 5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-06 16:27:17 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/rotem.haber/.rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/rotem.haber/.rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (2.6ms)
+Completed 200 OK in 124ms (Views: 6.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-06 16:27:33 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/rotem.haber/.rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/rotem.haber/.rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.7ms)
+Completed 200 OK in 8ms (Views: 5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-06 16:39:44 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/rotem.haber/.rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/rotem.haber/.rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.1ms)
+Completed 200 OK in 14ms (Views: 5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-06 17:02:25 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/rotem.haber/.rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/rotem.haber/.rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.1ms)
+Completed 200 OK in 15ms (Views: 6.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-06 17:19:12 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/rotem.haber/.rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/rotem.haber/.rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (2.8ms)
+Completed 200 OK in 7ms (Views: 5.0ms)
+
+
+Started GET "/eat" for 127.0.0.1 at 2018-02-06 17:19:25 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/eat"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.2.1) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.3) lib/rack/proxy.rb:57:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/eat/index" for 127.0.0.1 at 2018-02-06 17:19:34 +0200
+Processing by EatController#index as HTML
+  Rendering eat/index.html.erb within layouts/application
+  Rendered eat/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1160ms (Views: 1158.5ms)
+
+
+Started GET "/eat/index" for 127.0.0.1 at 2018-02-06 17:19:46 +0200
+Processing by EatController#index as HTML
+  Rendering eat/index.html.erb within layouts/application
+  Rendered eat/index.html.erb within layouts/application (111.3ms)
+Completed 500 Internal Server Error in 116ms
+
+
+  
+ActionView::Template::Error (undefined method `react_component' for #<#<Class:0x007fd1c97432c0>:0x007fd1ca771110>):
+    1: <%= javascript_pack_tag 'application' %>
+    2: <%= react_component 'Post', { title: 'A working react component', body: 'Simple but effective' }, prerender: true %>
+  
+app/views/eat/index.html.erb:2:in `_app_views_eat_index_html_erb__4522078792103441119_70269510848640'
+Started GET "/eat/index" for 127.0.0.1 at 2018-02-06 17:20:35 +0200
+Processing by EatController#index as HTML
+  Rendering eat/index.html.erb within layouts/application
+  Rendered eat/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 22ms (Views: 20.5ms)
+
+
+Started GET "/eat/index" for 127.0.0.1 at 2018-02-06 17:22:45 +0200
+Processing by EatController#index as HTML
+  Rendering eat/index.html.erb within layouts/application
+  Rendered eat/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 16ms (Views: 14.9ms)
+
+
+Started GET "/eat/index" for 127.0.0.1 at 2018-02-06 17:23:00 +0200
+Processing by EatController#index as HTML
+  Rendering eat/index.html.erb within layouts/application
+  Rendered eat/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 17ms (Views: 15.4ms)
+
+
+Started GET "/eat/index" for 127.0.0.1 at 2018-02-06 17:24:17 +0200
+Processing by EatController#index as HTML
+  Rendering eat/index.html.erb within layouts/application
+  Rendered eat/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 17ms (Views: 15.9ms)
+
+
+Started GET "/eat/index" for 127.0.0.1 at 2018-02-06 17:24:33 +0200
+Processing by EatController#index as HTML
+  Rendering eat/index.html.erb within layouts/application
+  Rendered eat/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 17ms (Views: 15.6ms)
+
+
+Started GET "/eat/index" for 127.0.0.1 at 2018-02-06 17:26:44 +0200
+Processing by EatController#index as HTML
+  Rendering eat/index.html.erb within layouts/application
+  Rendered eat/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 16ms (Views: 14.7ms)
+
+
+Started GET "/eat/index" for 127.0.0.1 at 2018-02-06 17:27:25 +0200
+Processing by EatController#index as HTML
+  Rendering eat/index.html.erb within layouts/application
+  Rendered eat/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 17ms (Views: 15.2ms)
+
+
+Started GET "/eat/index" for 127.0.0.1 at 2018-02-06 17:27:42 +0200
+Processing by EatController#index as HTML
+  Rendering eat/index.html.erb within layouts/application
+  Rendered eat/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 17ms (Views: 15.3ms)
+
+
+Started GET "/eat/index" for 127.0.0.1 at 2018-02-06 17:29:12 +0200
+Processing by EatController#index as HTML
+  Rendering eat/index.html.erb within layouts/application
+  Rendered eat/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 18ms (Views: 16.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-06 17:29:16 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/rotem.haber/.rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/rotem.haber/.rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (2.6ms)
+Completed 200 OK in 7ms (Views: 4.8ms)
+
+
+Started GET "/eat/index" for 127.0.0.1 at 2018-02-06 17:29:28 +0200
+Processing by EatController#index as HTML
+  Rendering eat/index.html.erb within layouts/application
+  Rendered eat/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 18ms (Views: 16.1ms)
+
+
+Started GET "/eat/index" for 127.0.0.1 at 2018-02-06 17:29:54 +0200
+Processing by EatController#index as HTML
+  Rendering eat/index.html.erb within layouts/application
+  Rendered eat/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 25ms (Views: 23.2ms)
+
+
+Started GET "/eat/index" for 127.0.0.1 at 2018-02-06 17:30:43 +0200
+Processing by EatController#index as HTML
+  Rendering eat/index.html.erb within layouts/application
+  Rendered eat/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 17ms (Views: 15.2ms)
+
+
+Started GET "/eat/index" for 127.0.0.1 at 2018-02-06 17:31:41 +0200
+Processing by EatController#index as HTML
+  Rendering eat/index.html.erb within layouts/application
+  Rendered eat/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 18ms (Views: 16.3ms)
+
+
+Started GET "/eat/index" for 127.0.0.1 at 2018-02-06 17:33:03 +0200
+Processing by EatController#index as HTML
+  Rendering eat/index.html.erb within layouts/application
+  Rendered eat/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 18ms (Views: 16.6ms)
+
+
+Started GET "/eat/index" for 127.0.0.1 at 2018-02-06 17:33:14 +0200
+Processing by EatController#index as HTML
+  Rendering eat/index.html.erb within layouts/application
+  Rendered eat/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 16ms (Views: 14.8ms)
+
+
+Started GET "/eat/index" for 127.0.0.1 at 2018-02-06 17:33:16 +0200
+Processing by EatController#index as HTML
+  Rendering eat/index.html.erb within layouts/application
+  Rendered eat/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 17ms (Views: 15.8ms)
+
+
+Started GET "/eat/index" for 127.0.0.1 at 2018-02-06 18:50:09 +0200
+Processing by EatController#index as HTML
+  Rendering eat/index.html.erb within layouts/application
+  Rendered eat/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 28ms (Views: 25.7ms)
+
+
+Started GET "/eat/index" for 127.0.0.1 at 2018-02-06 18:50:24 +0200
+Processing by EatController#index as HTML
+  Rendering eat/index.html.erb within layouts/application
+  Rendered eat/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 20ms (Views: 18.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-12 11:38:20 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/rotem.haber/.rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/rotem.haber/.rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 193ms (Views: 8.3ms)
+
+
+Started GET "/eat/index" for 127.0.0.1 at 2018-02-12 11:41:14 +0200
+Processing by EatController#index as HTML
+  Rendering eat/index.html.erb within layouts/application
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /Users/rotem.haber/Documents/WeEat/public/packs
+  Rendered eat/index.html.erb within layouts/application (1519.4ms)
+Completed 200 OK in 2898ms (Views: 2896.4ms)
+
+
+Started GET "/eat/index" for 127.0.0.1 at 2018-02-12 11:53:28 +0200
+Processing by EatController#index as HTML
+  Rendering eat/index.html.erb within layouts/application
+  Rendered eat/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 24ms (Views: 22.8ms)
+
+
+Started GET "/eat/index" for 127.0.0.1 at 2018-02-12 11:54:06 +0200
+Processing by EatController#index as HTML
+  Rendering eat/index.html.erb within layouts/application
+  Rendered eat/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 18ms (Views: 17.1ms)
+
+
+Started GET "/eat/index" for 127.0.0.1 at 2018-02-12 11:54:36 +0200
+Processing by EatController#index as HTML
+  Rendering eat/index.html.erb within layouts/application
+  Rendered eat/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 25ms (Views: 23.1ms)
+
+
+  [1m[35m (19.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (21.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5208591056015243190)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateRestaurants (20180212123834)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (25.1ms)[0m  [1m[35mCREATE TABLE "restaurants" ("id" bigserial primary key, "name" character varying, "address" character varying, "accepts_10_bis" boolean, "cuisine_id" integer, "kosher" boolean, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (1.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180212123834"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-02-12 12:43:14.592638"], ["updated_at", "2018-02-12 12:43:14.592638"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(5208591056015243190)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5208591056015243190)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(5208591056015243190)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.6ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "address", "accepts_10_bis", "kosher", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "PamPam"], ["address", "Ibn Gabirol 30"], ["accepts_10_bis", "t"], ["kosher", "t"], ["created_at", "2018-02-12 12:48:50.650797"], ["updated_at", "2018-02-12 12:48:50.650797"]]
+  [1m[35m (5.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[33mUPDATE "restaurants" SET "name" = $1, "updated_at" = $2 WHERE "restaurants"."id" = $3[0m  [["name", "Bari Israeli"], ["updated_at", "2018-02-12 12:50:46.437514"], ["id", 1]]
+  [1m[35m (6.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5208591056015243190)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20180212125401)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (9.8ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "user" character varying, "password" character varying, "first_name" character varying, "last_name" character varying, "email" character varying, "phone_number" character varying, "is_admin" boolean, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180212125401"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(5208591056015243190)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2018-02-12 14:55:12 +0200
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/rotem.haber/.rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/rotem.haber/.rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 8ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-02-12 14:55:16 +0200
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 100ms (Views: 92.1ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-02-12 14:55:23 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (26.2ms)
+  Rendered users/new.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 70ms (Views: 52.6ms | ActiveRecord: 4.9ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-02-12 14:55:49 +0200
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VR8LVZElaHbzMz066NObNWd8azg9xU52a3+SX/a+Q5vG7LzmFIlxNBCFXNgvNg6Rjb8qU+yTo00W41VcB+vGHg==", "user"=>{"user"=>"sfsdfgs", "password"=>"[FILTERED]", "first_name"=>"Yossi", "last_name"=>"Shalem", "email"=>"yossishalem@gmail.com", "phone_number"=>"972-50-9530093", "is_admin"=>"1"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "users" ("user", "password", "first_name", "last_name", "email", "phone_number", "is_admin", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["user", "sfsdfgs"], ["password", "dfdsfsf"], ["first_name", "Yossi"], ["last_name", "Shalem"], ["email", "yossishalem@gmail.com"], ["phone_number", "972-50-9530093"], ["is_admin", "t"], ["created_at", "2018-02-12 12:55:49.825882"], ["updated_at", "2018-02-12 12:55:49.825882"]]
+  [1m[35m (11.6ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 18ms (ActiveRecord: 12.5ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2018-02-12 14:55:49 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 43ms (Views: 36.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-02-12 14:55:52 +0200
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 39ms (Views: 36.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2018-02-12 14:55:55 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 28ms (Views: 24.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2018-02-12 14:56:03 +0200
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (3.8ms)
+  Rendered users/edit.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 28ms (Views: 25.7ms | ActiveRecord: 0.3ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5208591056015243190)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateReviews (20180212152152)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (21.2ms)[0m  [1m[35mCREATE TABLE "reviews" ("id" bigserial primary key, "restaurant_id" integer, "user_id" integer, "review" character varying, "stars" integer, "recommend" boolean, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180212152152"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(5208591056015243190)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "reviews" ("restaurant_id", "user_id", "review", "stars", "recommend", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["restaurant_id", 1], ["user_id", 1], ["review", "great restaurant!"], ["stars", 4], ["recommend", "t"], ["created_at", "2018-02-12 15:30:45.594545"], ["updated_at", "2018-02-12 15:30:45.594545"]]
+  [1m[35m (9.8ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/eat/index" for 127.0.0.1 at 2018-02-12 17:31:27 +0200
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EatController#index as HTML
+  Rendering eat/index.html.erb within layouts/application
+  Rendered eat/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 61ms (Views: 59.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/review/create" for 127.0.0.1 at 2018-02-12 17:31:43 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/review/create"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.2.1) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.3) lib/rack/proxy.rb:57:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/reviews/create" for 127.0.0.1 at 2018-02-12 17:31:49 +0200
+Processing by ReviewsController#show as HTML
+  Parameters: {"id"=>"create"}
+  [1m[36mReview Load (0.4ms)[0m  [1m[34mSELECT  "reviews".* FROM "reviews" WHERE "reviews"."id" = $1 LIMIT $2[0m  [["id", 0], ["LIMIT", 1]]
+Completed 404 Not Found in 10ms (ActiveRecord: 5.9ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Review with 'id'=create):
+  
+app/controllers/reviews_controller.rb:67:in `set_review'
+Started GET "/reviews/1/edit" for 127.0.0.1 at 2018-02-12 17:32:33 +0200
+Processing by ReviewsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT  "reviews".* FROM "reviews" WHERE "reviews"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering reviews/edit.html.erb within layouts/application
+  Rendered reviews/_form.html.erb (4.7ms)
+  Rendered reviews/edit.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 37ms (Views: 28.6ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/reviews/1" for 127.0.0.1 at 2018-02-12 17:32:43 +0200
+Processing by ReviewsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"z/stvsz6qBaEm0kuRcTIY6SBdwxm1cga4PKz9/AenUsikN5GsIlcE7MU9YNee15qTJShP9/Ylyw/M5MyiTcfYg==", "review"=>{"restaurant_id"=>"1", "user_id"=>"1", "review"=>"great restaurant!!!", "stars"=>"4", "recommend"=>"1"}, "commit"=>"Update Review", "id"=>"1"}
+  [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT  "reviews".* FROM "reviews" WHERE "reviews"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "reviews" SET "review" = $1, "updated_at" = $2 WHERE "reviews"."id" = $3[0m  [["review", "great restaurant!!!"], ["updated_at", "2018-02-12 15:32:43.878531"], ["id", 1]]
+  [1m[35m (6.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/reviews/1
+Completed 302 Found in 12ms (ActiveRecord: 7.4ms)
+
+
+Started GET "/reviews/1" for 127.0.0.1 at 2018-02-12 17:32:43 +0200
+Processing by ReviewsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT  "reviews".* FROM "reviews" WHERE "reviews"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering reviews/show.html.erb within layouts/application
+  Rendered reviews/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 28ms (Views: 24.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reviews" for 127.0.0.1 at 2018-02-12 17:32:46 +0200
+Processing by ReviewsController#index as HTML
+  Rendering reviews/index.html.erb within layouts/application
+  [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  Rendered reviews/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 31ms (Views: 23.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reviews/new" for 127.0.0.1 at 2018-02-12 17:32:50 +0200
+Processing by ReviewsController#new as HTML
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/_form.html.erb (3.1ms)
+  Rendered reviews/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 31ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5208591056015243190)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateCuisines (20180212155223)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (22.3ms)[0m  [1m[35mCREATE TABLE "cuisines" ("id" bigserial primary key, "name" character varying, "icon" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180212155223"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(5208591056015243190)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (3.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
