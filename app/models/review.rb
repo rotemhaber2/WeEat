@@ -14,7 +14,16 @@
 
 class Review < ApplicationRecord
 
+  validates_presence_of :restaurant
+  validates_presence_of :user_id
+  validates_presence_of :stars
+
+  validates_length_of :name, :maximum => 70
+  validates_length_of :review, :maximum => 500
+
   belongs_to :restaurant
   belongs_to :user
+
+
 
 end
