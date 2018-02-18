@@ -22,16 +22,9 @@ class Restaurant < ApplicationRecord
   validates_length_of :name, :maximum => 70
   validates_length_of :address, :maximum => 140
   validates_length_of :cuisine_id, :maximum => 70
+  validates :delivery_time, :inclusion => 1..180
 
   has_many :reviews
   has_and_belongs_to_many :cuisines
-
-  before_create :update_rating
-
-  def update_rating
-    update(rating: 111.1)
-  end
-
-
 
 end
