@@ -10,6 +10,7 @@
 #  recommend     :boolean
 #  created_at    :datetime         not null
 #  updated_at    :datetime         not null
+#  user_name     :string
 #
 
 class Review < ApplicationRecord
@@ -20,10 +21,9 @@ class Review < ApplicationRecord
 
   validates_length_of :name, :maximum => 70
   validates_length_of :review, :maximum => 500
+  validates :stars, :inclusion => 1..3
+
 
   belongs_to :restaurant
-  belongs_to :user
-
-
 
 end

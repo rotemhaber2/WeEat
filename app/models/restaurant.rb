@@ -10,6 +10,7 @@
 #  kosher         :boolean
 #  created_at     :datetime         not null
 #  updated_at     :datetime         not null
+#  delivery_time  :integer
 #
 
 class Restaurant < ApplicationRecord
@@ -24,5 +25,13 @@ class Restaurant < ApplicationRecord
 
   has_many :reviews
   has_and_belongs_to_many :cuisines
+
+  before_create :update_rating
+
+  def update_rating
+    update(rating: 111.1)
+  end
+
+
 
 end
