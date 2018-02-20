@@ -31,6 +31,7 @@ ActiveRecord::Schema.define(version: 20180218135804) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "delivery_time"
+    t.float "rating"
   end
 
   create_table "reviews", force: :cascade do |t|
