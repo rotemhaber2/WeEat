@@ -30,13 +30,11 @@ class RestaurantList extends Component {
                 <div>
                     { this.state && this.state.restaurants &&
                     this.state.restaurants.map((restaurant) =>
-                        <div>
-                            <Row>
+                            <Row key={restaurant.id}>
                                 <Col xs="3">{restaurant.name}</Col>
                                 <Col xs="auto">{restaurant.address}</Col>
                                 <Col xs="3">delivery time: {restaurant.delivery_time}</Col>
                             </Row>
-                        </div>
                     )}
                 </div>
             </div>
