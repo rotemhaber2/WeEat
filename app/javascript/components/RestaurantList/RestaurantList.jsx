@@ -5,31 +5,17 @@ import { Row, Col } from 'reactstrap';
 
 class RestaurantList extends Component {
 
-    constructor() {
-        super();
-        this.state = {restaurants: null};
-    }
-
-    setRestState(restaurants){
-        this.setState({restaurants : restaurants});
-    }
-
-    componentWillMount() {
-        var that = this;
-        fetch('/restaurants.json').
-        then(((response) => response.json())
-        ).then((response) => {
-            that.setRestState(response)
-        })
+    constructor(props) {
+        super(props);
     }
 
     render() {
+        const { restaurants } = this.props;
         return (
             <div>
-                <h1>{'Restaurant list'}</h1>
                 <div>
-                    { this.state && this.state.restaurants &&
-                    this.state.restaurants.map((restaurant) =>
+                    { restaurants &&
+                    restaurants.map((restaurant) =>
                             <Row key={restaurant.id}>
                                 <Col xs="3">{restaurant.name}</Col>
                                 <Col xs="auto">{restaurant.address}</Col>

@@ -7,10 +7,10 @@ class Header extends Component {
     render() {
         return (
             <div>
+                <Search/>
                 <RestaurantFilter
                     cuisines={this.props.cuisines}
                 />
-                <Search/>
             </div>
         )
     }

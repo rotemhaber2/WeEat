@@ -1,12 +1,26 @@
 import React, { Component } from 'react'
 import { Row, Col, Input } from 'reactstrap';
+import { restaurantsFetch } from '../../fetch/restaurantsFetch'
 
 class RestaurantFilter extends Component {
+
+
+    componentWillMount() {
+
+      //  restaurantsFetch();
+        // this.setState({
+        // //    allRestaurants: newProps.restaurants,
+        //    // filteredRestaurants: this.filterRestaurants(this.props.cuisines),
+        // })
+        this.setState({items : this.props.cuisines});
+
+    }
 
     render() {
         const style = {
             backgroundColor: 'pink'
         }
+
         console.log(this.props);
         return (
             <div>
@@ -49,9 +63,19 @@ class RestaurantFilter extends Component {
     }
 
     onDropdownSelected(e) {
+
         console.log("THE VAL", e.target.value);
         //here you will see the current selected value of the select input
+       // filteredRestaurants: this.filterRestaurants(e.target.value)
     }
+
+    filterRestaurants = (filters) => {
+       // const { cuisine_id, min_rating, max_delivery_min } = filters;
+        return this.state.restaurants.filter((restaurant) =>
+            (!cuisine_id || restaurant.cuisine_id === filters)
+        );
+    };
+
 }
 
 export default RestaurantFilter;
