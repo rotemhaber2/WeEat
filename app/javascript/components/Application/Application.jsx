@@ -1,14 +1,15 @@
 import React, { Component } from 'react'
-import RestaurantList from "../RestaurantList/RestaurantList"
-import Header from "../Header/Header"
 import MapContainer from "../Map/MapContainer"
+import RestaurantFilter from "../RestaurantFilter/RestaurantFilter"
+import Search from "../Search/Search"
 
 
 class Application extends Component {
 
     constructor() {
         super();
-        this.state = {cuisines: null};
+        this.state = {cuisines: null,
+                      restaurants: null};
     }
 
     setCuisineState(cuisines){
@@ -23,23 +24,20 @@ class Application extends Component {
 
         this.fetchCuisine();
         this.fetchRestaurants();
-
     }
 
     render() {
-
         return (
             <div>
                 <h1>{'We Eat!'}</h1>
-                    <Header
-                        cuisines={this.state.cuisines}
-                    />
+                {this.state.restaurants &&
+                <RestaurantFilter
+                    cuisines={this.state.cuisines}
+                    restaurants={this.state.restaurants}
+                />
+                }
                 <div>
-                    <MapContainer/>
-                    <RestaurantList
-                        cuisines={this.state.cuisines}
-                        restaurants={this.state.restaurants}
-                    />
+                    {/*<MapC  ontainer/>*/}
                 </div>
             </div>
         )
@@ -62,6 +60,8 @@ class Application extends Component {
             that.setRestState(response)
         })
     }
+
+
 
 }
 

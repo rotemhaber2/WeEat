@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
-import { Row, Col } from 'reactstrap';
-
-
+import Restaurant from "../Restaurant/Restaurant"
 
 class RestaurantList extends Component {
 
@@ -10,17 +8,21 @@ class RestaurantList extends Component {
     }
 
     render() {
-        const { restaurants } = this.props;
+        const style = {
+
+            backgroundColor: 'pink'
+        }
+
+        const { restaurants, cuisines } = this.props;
         return (
             <div>
-                <div>
-                    { restaurants &&
+                <div style={style}>
+                    { restaurants && cuisines &&
                     restaurants.map((restaurant) =>
-                            <Row key={restaurant.id}>
-                                <Col xs="3">{restaurant.name}</Col>
-                                <Col xs="auto">{restaurant.address}</Col>
-                                <Col xs="3">delivery time: {restaurant.delivery_time}</Col>
-                            </Row>
+                    <Restaurant
+                        restaurant={restaurant}
+                        cuisine={ cuisines.find(function (cuisine) { return cuisine.id == restaurant.cuisine_id; })}
+                    />
                     )}
                 </div>
             </div>
@@ -29,3 +31,4 @@ class RestaurantList extends Component {
 }
 
 export default RestaurantList;
+

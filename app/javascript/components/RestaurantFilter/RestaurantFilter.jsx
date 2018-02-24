@@ -1,39 +1,51 @@
 import React, { Component } from 'react'
-import { Row, Col, Input } from 'reactstrap';
-import { restaurantsFetch } from '../../fetch/restaurantsFetch'
+import { Row, Col } from 'reactstrap';
+import RestaurantList from "../RestaurantList/RestaurantList";
 
 class RestaurantFilter extends Component {
 
+    constructor(){
+        super();
+        this.state = {
+            rating: '2+',
+            delivery: 120,
+            cuisine: '1',
+            search: '',
+            restaurants: null
+        };
+
+        this.updateFilter = this.updateFilter.bind(this);
+        this.getFilteredRestaurants = this.getFilteredRestaurants.bind(this);
+    }
 
     componentWillMount() {
 
-      //  restaurantsFetch();
-        // this.setState({
-        // //    allRestaurants: newProps.restaurants,
-        //    // filteredRestaurants: this.filterRestaurants(this.props.cuisines),
-        // })
-        this.setState({items : this.props.cuisines});
-
+        this.setState({restaurants : this.props.restaurants});
+        this.setState({cuisines : this.props.cuisines});
     }
 
     render() {
-        const style = {
-            backgroundColor: 'pink'
-        }
 
-        console.log(this.props);
+        let filteredRestaurants = this.getFilteredRestaurants();
+
         return (
             <div>
+                <nav className="navbar navbar-light bg-light">
+                    <form className="form-inline">
+                        <input onChange={(e) => this.updateFilter('search',e)}
+                               className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
+                    </form>
+                </nav>
                 <Row className="restaurant-list">
                     <Col xs="3">
                         Cuisine:
-                        <select onChange={this.onDropdownSelected}>
+                        <select onChange={(e) => this.updateFilter('cuisine',e)}>
                             {this.createSelectItems(this.props.cuisines)}
                         </select>
                     </Col>
                     <Col xs="auto">
                         Rating:
-                        <select>
+                        <select onChange={(e) => this.updateFilter('rating',e)}>
                             <option>2+</option>
                             <option>3+</option>
                             <option>4+</option>
@@ -41,40 +53,47 @@ class RestaurantFilter extends Component {
                         </select>
                     </Col>
                     <Col xs="3">
-                        Speed:
-                        <select>
-                            <option>up to 30 minutes</option>
-                            <option>30-60</option>
-                            <option>60-120</option>
+                        Delivery time:
+                        <select onChange={(e) => this.updateFilter('delivery',e)}>
+                            <option value="30">up to 30 minutes</option>
+                            <option value="60">up to 60</option>
+                            <option selected="selected" value="120">up to 120</option>
                         </select>
                     </Col>
                 </Row>
-
+                <RestaurantList
+                    restaurants={filteredRestaurants}
+                    cuisines={this.state.cuisines}/>
             </div>
+
         )
     }
 
     createSelectItems(itemsList) {
         let items = [];
         for (var key in itemsList) {
-            items.push(<option key={itemsList[key].id}>{ itemsList[key].name }</option>);
+            items.push(<option value={itemsList[key].id}>{ itemsList[key].name }</option>);
         }
         return items;
     }
 
-    onDropdownSelected(e) {
-
-        console.log("THE VAL", e.target.value);
-        //here you will see the current selected value of the select input
-       // filteredRestaurants: this.filterRestaurants(e.target.value)
+    updateFilter(filterName,e) {
+        if(e) {
+            this.setState({[filterName]: e.target.value})
+        }
     }
 
-    filterRestaurants = (filters) => {
-       // const { cuisine_id, min_rating, max_delivery_min } = filters;
-        return this.state.restaurants.filter((restaurant) =>
-            (!cuisine_id || restaurant.cuisine_id === filters)
+    getFilteredRestaurants = () => {
+        var that = this;
+        return this.state.restaurants.filter((restaurant) => {
+             return (restaurant.cuisine_id == that.state.cuisine &&
+             restaurant.delivery_time <= that.state.delivery &&
+                 restaurant.name.toLowerCase().indexOf(that.state.search) !== -1
+             )
+            }
         );
     };
+
 
 }
 
