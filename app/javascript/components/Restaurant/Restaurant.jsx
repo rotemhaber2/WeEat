@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { Row, Col } from 'reactstrap';
+import ReactStars from 'react-stars'
+
 
 class Restaurant extends Component {
 
@@ -9,7 +11,6 @@ class Restaurant extends Component {
 
     render() {
         const style = {
-
             backgroundColor: 'pink'
         }
         const symbol = {
@@ -27,15 +28,20 @@ class Restaurant extends Component {
                 <div style={style}>
                     { restaurant && cuisine &&
                         <Row key={restaurant.id}>
-                            <Col xs="3">{restaurant.name}</Col>
-                            <Col xs="auto">{restaurant.address}</Col>
-                            <Col xs="3">delivery time: {restaurant.delivery_time}</Col>
+                            <Col xs="2">{restaurant.name}</Col>
+                            <Col xs="2">{restaurant.address}</Col>
+                            <Col xs="2">delivery time: {restaurant.delivery_time}</Col>
+                            <Col xs="2">
+                            <ReactStars
+                                count={restaurant.rating}
+                                size={22}
+                                color2={'#ffd700'} />
+                            </Col>
                             {restaurant.accepts_10_bis &&
-                            <Col xs="3">accept 10bis:
+                            <Col xs="2">accept 10bis:
                                 <img style={tenbis} src={require('../../images/10bis.jpeg')}/></Col>
                             }
-                            <Col xs="3">rating: {restaurant.rating}</Col>
-                            <Col xs="3" ><p style={symbol}>{ cuisine.icon }</p></Col>
+                            {/*<Col xs="3" ><p style={symbol}>{ String.fromCharCode( restaurant.cuisine ) }</p></Col>*/}
                         </Row>
                     }
                 </div>

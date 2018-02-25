@@ -37,7 +37,7 @@ class Application extends Component {
                 />
                 }
                 <div>
-                    {/*<MapC  ontainer/>*/}
+                    <MapContainer/>
                 </div>
             </div>
         )

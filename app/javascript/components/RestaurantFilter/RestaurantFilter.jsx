@@ -25,18 +25,25 @@ class RestaurantFilter extends Component {
     }
 
     render() {
+        const style = {
+            backgroundColor: 'lightGrey'
+        }
+        const filter = {
+            backgroundColor: 'lightBlue',
+            padding: '10px'
+        }
 
         let filteredRestaurants = this.getFilteredRestaurants();
 
         return (
-            <div>
+            <div style={style}>
                 <nav className="navbar navbar-light bg-light">
                     <form className="form-inline">
                         <input onChange={(e) => this.updateFilter('search',e)}
                                className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
                     </form>
                 </nav>
-                <Row className="restaurant-list">
+                <Row className="restaurant-list" style={filter}>
                     <Col xs="3">
                         Cuisine:
                         <select onChange={(e) => this.updateFilter('cuisine',e)}>
