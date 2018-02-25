@@ -8,15 +8,11 @@ class RestaurantList extends Component {
     }
 
     render() {
-        const style = {
-
-            backgroundColor: 'pink'
-        }
 
         const { restaurants, cuisines } = this.props;
         return (
             <div>
-                <div style={style}>
+                <div>
                     { restaurants && cuisines &&
                     restaurants.map((restaurant) =>
                     <Restaurant

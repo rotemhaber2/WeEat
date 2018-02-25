@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import MapContainer from "../Map/MapContainer"
 import RestaurantFilter from "../RestaurantFilter/RestaurantFilter"
-import Search from "../Search/Search"
 
 
 class Application extends Component {
@@ -27,9 +26,9 @@ class Application extends Component {
     }
 
     render() {
+
         return (
             <div>
-                <h1>{'We Eat!'}</h1>
                 {this.state.restaurants &&
                 <RestaurantFilter
                     cuisines={this.state.cuisines}
