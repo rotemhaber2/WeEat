@@ -11,6 +11,7 @@
 #  created_at     :datetime         not null
 #  updated_at     :datetime         not null
 #  delivery_time  :integer
+#  rating         :float
 #
 
 class Restaurant < ApplicationRecord
@@ -26,5 +27,9 @@ class Restaurant < ApplicationRecord
 
   has_many :reviews
   has_and_belongs_to_many :cuisines
+
+  def update_rating
+    update(rating: reviews.average(:rating))
+  end
 
 end
