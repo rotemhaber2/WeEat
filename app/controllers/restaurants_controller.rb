@@ -8,8 +8,7 @@ class RestaurantsController < ApplicationController
 
   # GET /restaurants/1.json
   def show
-    @restaurant.rating = @restaurant.reviews.average(:stars)
-
+      render json: Restaurant.find(params[:id])
   end
 
   # GET /restaurants/new
@@ -56,7 +55,7 @@ class RestaurantsController < ApplicationController
     end
 
     def restaurant_params
-      params.require(:restaurant).permit(:name, :address, :delivery_time, :accepts_10_bis, :cuisine_id, :kosher)
+      params.permit(:name, :address, :delivery_time, :accepts_10_bis, :cuisine_id, :kosher)
     end
 
 
