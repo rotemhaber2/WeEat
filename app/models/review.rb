@@ -23,7 +23,7 @@ class Review < ApplicationRecord
 
   validates_length_of :user_name, :maximum => 70
   validates_length_of :comment, :maximum => 500
-  validates :stars, :inclusion => 1..3
+  validates :stars, :inclusion => 1..5
 
 
   belongs_to :restaurant
