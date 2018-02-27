@@ -29,7 +29,7 @@ class Restaurant < ApplicationRecord
   has_and_belongs_to_many :cuisines
 
   def update_rating
-    update(rating: reviews.average(:rating))
+    update(rating: reviews.average(:stars))
   end
 
 end
