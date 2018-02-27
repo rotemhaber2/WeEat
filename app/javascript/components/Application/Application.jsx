@@ -29,7 +29,7 @@ class Application extends Component {
 
         return (
             <div>
-                {this.state.restaurants &&
+                {this.state.restaurants && this.state.cuisines &&
                 <RestaurantFilter
                     cuisines={this.state.cuisines}
                     restaurants={this.state.restaurants}
