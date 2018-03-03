@@ -32,7 +32,6 @@ RSpec.describe RestaurantsController, type: :controller do
       restaurant = create(:restaurant)
       get :show,   params: { id: restaurant[:id] }
       expect(response).to have_http_status(:ok)
-      expect(JSON.parse(response.body)["restaurant"]["rating"]).to be_between(0, 5)
     end
   end
 

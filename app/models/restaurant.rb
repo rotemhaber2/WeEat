@@ -16,20 +16,16 @@
 
 class Restaurant < ApplicationRecord
 
-  validates_presence_of :name
-  validates_presence_of :address
-  validates_presence_of :cuisine_id
-
-  validates_length_of :name, :maximum => 70
-  validates_length_of :address, :maximum => 140
-  validates_length_of :cuisine_id, :maximum => 70
+  validates :name, presence: true, length: { maximum: 70 }
+  validates :address, presence: true, length: { maximum: 140 }
+  validates :cuisine_id, presence: true,  length: { maximum: 70 }
   validates :delivery_time, :inclusion => 1..180
 
   has_many :reviews
   has_and_belongs_to_many :cuisines
 
   def update_rating
-    update(rating: reviews.average(:stars))
+    update_attribute(:rating, reviews.average(:stars).to_f.round)
   end
 
 end

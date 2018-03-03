@@ -45,7 +45,6 @@ class RestaurantsController < ApplicationController
   def destroy
     @restaurant.destroy
       head :no_content
-
   end
 
   private

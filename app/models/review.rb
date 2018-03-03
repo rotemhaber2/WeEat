@@ -19,12 +19,10 @@ class Review < ApplicationRecord
 
   validates_presence_of :restaurant_id
   validates_presence_of :user_id
-  validates_presence_of :stars
+  validates :stars, presence: true, :inclusion => 1..5
 
   validates_length_of :user_name, :maximum => 70
   validates_length_of :comment, :maximum => 500
-  validates :stars, :inclusion => 1..5
-
 
   belongs_to :restaurant
 
