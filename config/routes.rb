@@ -1,9 +1,15 @@
 Rails.application.routes.draw do
-  get 'restaurants_list/get'
+  # resources :restaurants do
+  #   resources :reviews, only: [:index, :create]
+  # end
+  #
+  #
+  #
+   resources :reviews
+   resources :restaurants
+  #
+   resources :cuisines
 
-  resources :reviews
-  resources :users
-  get 'eat/index'
-
+  get '*path', to: 'application#index'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
