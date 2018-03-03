@@ -10,7 +10,7 @@ class RestaurantFilter extends Component {
         super();
         this.state = {
             rating: '-1',
-            delivery: '120',
+            delivery: 120,
             cuisine: '-1',
             search: '',
             restaurants: null,

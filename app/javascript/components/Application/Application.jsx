@@ -47,7 +47,7 @@ class Application extends Component {
         fetch('/cuisines.json').
         then(((response) => response.json())
         ).then((response) => {
-            that.setCuisineState(response)
+            that.setCuisineState(response.cuisines)
         })
     }
 
@@ -56,7 +56,7 @@ class Application extends Component {
         fetch('/restaurants.json').
         then(((response) => response.json())
         ).then((response) => {
-            that.setRestState(response)
+            that.setRestState(response.restaurants)
         })
     }
 

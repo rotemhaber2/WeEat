@@ -16,6 +16,7 @@ class RestaurantList extends Component {
                     { restaurants && cuisines &&
                     restaurants.map((restaurant) =>
                     <Restaurant
+                        key={restaurant.id}
                         restaurant={restaurant}
                         cuisine={ cuisines.find(function (cuisine) { return cuisine.id == restaurant.cuisine_id; })}
                     />
