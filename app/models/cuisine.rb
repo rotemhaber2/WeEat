@@ -11,9 +11,7 @@
 
 class Cuisine < ApplicationRecord
 
-  validates_presence_of :name
-
-  validates_length_of :name, :maximum => 70
+  validates :name, presence: true, length: { maximum: 70 }
 
   has_and_belongs_to_many :restaurants
 
