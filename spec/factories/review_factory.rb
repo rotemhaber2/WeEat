@@ -5,6 +5,5 @@ FactoryGirl.define do
   user_id { Faker::Number.digit }
   stars { Faker::Number.between(1, 5) }
   comment { Faker::Name.name }
-  restaurant_id { '1' }
   end
 end

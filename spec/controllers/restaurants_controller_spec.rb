@@ -2,6 +2,7 @@ require 'rails_helper'
 
 RSpec.describe RestaurantsController, type: :controller do
 
+
   describe 'Create new restaurant' do
     it 'create a restaurant with valid parameters' do
       post :create, params: FactoryGirl.attributes_for(:restaurant)
@@ -9,10 +10,9 @@ RSpec.describe RestaurantsController, type: :controller do
     end
 
     it 'fail when create a restaurant with missing address' do
-      post :create, params: FactoryGirl.attributes_for(:invalid_restaurant)
+      post :create, params: FactoryGirl.attributes_for(:missing_address)
       expect(response).to have_http_status(:unprocessable_entity)
       end
-
     end
 
   describe "GET #index" do
@@ -29,12 +29,11 @@ RSpec.describe RestaurantsController, type: :controller do
 
   describe "GET #show" do
     it "get valid rating of a restaurant" do
-      restaurant = FactoryGirl.attributes_for(:restaurant)
+      restaurant = create(:restaurant)
       get :show,   params: { id: restaurant[:id] }
       expect(response).to have_http_status(:ok)
-      expect(JSON.parse(response.body)["rating"]).to be_between(1, 5)
+      expect(JSON.parse(response.body)["restaurant"]["rating"]).to be_between(0, 5)
     end
   end
-
 
 end
