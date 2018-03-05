@@ -13,3 +13,85 @@
  *= require_tree .
  *= require_self
  */
+@font-face{
+    font-family:'ef_cuisinesregular';
+    src: url('efcuisines-regular-webfont.eot');
+    src: url('efcuisines-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('efcuisines-regular-webfont.woff') format('woff'),
+    url('efcuisines-regular-webfont.ttf') format('truetype'),
+    url('efcuisines-regular-webfont.svg#ef_cuisinesregular') format('svg');
+}
+.rangeslider.rangeslider-horizontal .rangeslider__fill{
+    background-color: #ffe680 !important;
+}
+
+/* start restaurant filter CSS */
+.style{
+    background-image:url("weeat.jpg");
+    height:500px;
+}
+.search{
+    text-align:center;
+    display:flex;
+    align-items:center;
+    vertical-align:middle;
+    margin:auto;
+}
+.searchInput{
+    font-size:20px;
+    background-color:#f9f2ec;
+}
+.filter{
+    background-color:#86592d;
+    padding:10px 17%;
+    color:#f2f2f2;
+    font-family:Arial,Tahoma,"Bitstream Vera Sans",sans-serif;
+}
+.title{
+    display:flex;
+    align-items:center;
+    vertical-align:middle;
+    margin:auto;
+    font-size:90px;
+    font-family:Impact, Charcoal, sans-serif'
+}
+.select{
+    border:1px solid #ccc;
+    font-size:16px;
+    height:34px;
+    width:200px;
+    background-color:#f9f2ec;
+    margin:10px;
+}
+.colCentered{
+    text-align:center;
+    font-family:Arial,Tahoma,"Bitstream Vera Sans",sans-serif;
+    font-size:16px;
+}
+.motor{
+    width:40px;
+}
+.weEatLogo{
+    width:100px;
+}
+
+/* end restaurant filter styling */
+
+/* start restaurant styling */
+
+.restaurant{
+    background-color: #f9f2ec;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    border: solid 1px lightGrey;
+}
+
+.tenbis{
+    width: 20px;
+    margin-left: 10px;
+}
+.webFront{
+    font-family: 'ef_cuisinesregular';
+    font-size: 2em;
+}

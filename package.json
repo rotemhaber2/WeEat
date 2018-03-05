@@ -4,10 +4,16 @@
   "dependencies": {
     "@rails/webpacker": "^3.2.1",
     "babel-preset-react": "^6.24.1",
+    "bootstrap": "^4.0.0",
+    "google-maps-react": "^1.1.2",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react_ujs": "^2.4.3"
+    "react-rangeslider": "^2.2.0",
+    "react-stars": "^2.2.5",
+    "react-stars-rating": "0.0.5",
+    "react_ujs": "^2.4.3",
+    "reactstrap": "^5.0.0-beta"
   },
   "devDependencies": {
     "babel-preset-stage-0": "^6.24.1",
